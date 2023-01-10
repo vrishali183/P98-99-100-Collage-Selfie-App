@@ -31,7 +31,7 @@ function speak(){
 
     setTimeout(function()
     { 
-        img_id = " ";
+        img_id = """;
         take_snapshot(); 
         speak_data = "Taking your next Selfie in 10 seconds";
         var utterThis = new SpeechSynthesisUtterance(speak_data);
